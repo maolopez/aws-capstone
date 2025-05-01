@@ -19,6 +19,27 @@ resource "aws_security_group" "allow-http" {
   }
 }
 
+resource "aws_security_group" "allow-https" {
+  name        = "${var.project}-allow-https"
+  description = "Enable HTTPS Access"
+  vpc_id      = var.vpc_id
+
+  ingress {
+    from_port   = 443
+    to_port     = 443
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+    description = "HTTPS Access"
+  }
+
+  egress {
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+}
+
 resource "aws_security_group" "allow-ssh" {
   name        = "${var.project}-allow-ssh"
   description = "Enable SSH Access"
