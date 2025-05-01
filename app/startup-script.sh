@@ -10,4 +10,5 @@ docker info
 git clone https://github.com/maolopez/ut_anagramma.git
 cd ut_anagramma/
 docker build -t ut-anagramma .
-docker run -t -i -p 8082:8082 ut-anagramma
+cd ..
+docker run --restart always --name ut_anagramma -p 8082:8082 -d maolopez/ut_anagramma:latest
