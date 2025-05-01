@@ -16,10 +16,19 @@ General description
 
 |capstone-JRnh       |20 points – Test the environment by creating a simple virtual machine   |
 
-
+|ut-anagramma-elb    |50 points - Build a website by  reusing modules                         |
 
 
 INSTRUCTIONS
 ------------------
 
-more
+cd aws-capstone/app/
+terraform plan
+terraform validate
+terraform apply auto-approve
+
+IN THE BROWSER
+https://ut-anagramma-elb-163682813.us-east-1.elb.amazonaws.com/
+
+REFERENCES:
+https://github.com/maolopez/ut_anagramma 
