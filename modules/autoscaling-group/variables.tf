@@ -54,6 +54,10 @@ variable "allow_http_id" {
   type = string
 }
 
+variable "allow_https_id" {
+  type = string
+}
+
 variable "allow_ssh_id" {
   type = string
 }
