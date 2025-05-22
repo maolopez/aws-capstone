@@ -5,6 +5,7 @@ Assumptions
 -----
 1- You have AWS credentials
 2- You have a AWS Linux Instance set up to deploy: Git, Terraform, AWS creds, etc
+3- For the deployer use "ami-0e449927258d45bc4"
 
 eruser138account
 
