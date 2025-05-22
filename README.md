@@ -9,6 +9,8 @@ Assumptions
 
 3- For the deployer use "ami-0e449927258d45bc4"
 
+4- Details about how we load the "App" are in app/startup-script.sh 
+
 eruser138account
 
 General description
