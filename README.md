@@ -11,7 +11,7 @@ Assumptions
 
 4- Details about how we load the "App" are in app/startup-script.sh 
 
-eruser138account
+
 
 General description
 -----
@@ -41,5 +41,15 @@ terraform apply auto-approve
 IN THE BROWSER
 https://ut-anagramma-elb-163682813.us-east-1.elb.amazonaws.com/ (or similar given)
 
-REFERENCES:
-https://github.com/maolopez/ut_anagramma 
+REFERENCES
+------------------
+
+https://github.com/maolopez/ut_anagramma
+
+https://github.com/maolopez/ut_anagramma
+
+https://gitlab.com/maolopez1/ut_anagramma 
+
+https://github.com/maolopez/aws-capstone-kubernetes-mgl
+
+https://github.com/maolopez/aws-capstone-pipeline-mgl
