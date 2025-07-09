@@ -46,7 +46,7 @@ REFERENCES
 
 https://github.com/maolopez/ut_anagramma
 
-https://github.com/maolopez/ut_anagramma
+https://github.com/maolopez/ut-anagramma
 
 https://gitlab.com/maolopez1/ut_anagramma 
 
